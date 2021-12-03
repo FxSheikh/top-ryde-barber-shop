@@ -1,0 +1,191 @@
+/*page header styling*/
+.page-header {
+    color: white;
+    background-color: #004b85;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	text-shadow: 3px 3px 5px #000;
+    border-bottom: 0;
+    padding: 30px 60px;
+    margin-top: 0;
+    margin-bottom: 30px;
+
+}
+
+/*h1 styling*/
+h1 {
+	font-size:30px;
+}
+
+/*navbar styling*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;  /*Sets the text hover color and text hover background color on navbar*/
+    background-color: #004b85;
+}
+
+.navbar { 
+    background-image: none;
+    border: 1px solid #0066FF;  
+    background-color:#FFCC33;
+    color: #004b85;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #004b85;
+}
+
+ul li {
+    border-right: 1px solid #030033;
+}
+
+/*header stylings*/
+h2 {
+    background-color: #004b85;
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 5px #000;
+    font-size: 20px;
+    padding: 9px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/*welcome section styling*/
+#welcome {
+    margin-top: 25px;
+    border: 1px solid #0066FF;  
+    background-color:#FFCC33;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    font-family: 'Lora', serif; 
+    font-size: 15px;
+
+}
+
+/*barber image styling*/
+#barber {
+    float: left;
+    margin-right: 35px;
+
+}
+
+/*trade table styling*/
+#trade {
+    font-family: 'Lora', serif; 
+    font-size: 15px;
+}
+
+#trade td {
+    padding-right: 45px;
+    line-height: 2; 
+}
+
+
+/*friday and saturday note styling*/
+#friday_note, #saturday_note  {
+    margin-top: 8px;
+    color:red;
+    font-family: 'Lora', serif;
+}
+
+#saturday_note {
+    text-align: center;
+}
+
+/*pricing tables styling*/
+table.pricing {
+    margin-top: 10px;
+    border: 1px solid black;
+}
+table.pricing, table.pricing th, table.pricing td {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.pricing tr:nth-child(even) {
+    background-color: #eee;
+}
+table.pricing tr:nth-child(odd) {
+   background-color:#fff;
+}
+
+table.pricing th	{
+    border: 1px solid black; 
+    background-color:#FFCC33;
+}
+
+table.pricing td {
+    font-family: 'Lora', serif;
+}
+
+table.pricing>thead>tr>th {
+    border-bottom: 1px solid black;
+}
+
+table.pricing>tbody>tr>td {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/*store details and contact info tables styling*/
+table.cont {
+    width: 100%;
+    line-height: 2;
+    margin-top: 10px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #004b85;
+}
+
+table.cont th {
+    padding-left: 30px;
+    font-size: 15px;
+}
+table.cont td {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+/*embedded google map styling*/
+#map1 {
+    border: 1px solid black;
+}
+
+#map1>tbody>tr>td {
+    border-top: 1px solid black;    
+}
+
+/*footer styling*/
+
+.footer-distributed {
+    border-top: 18px solid #004b85;
+    margin-top: 5px;
+}
+
+.footer-distributed .footer-info {
+    color:  black;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+}
+
+.footer-distributed .footer-right {
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-distributed .footer-right a {
+    color: #004b85;
+    margin-left: 5px;
+    border-right: 2px solid gray;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-left p{
+    color:  black;
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: 'Lora', serif;
+}
